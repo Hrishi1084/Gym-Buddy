@@ -10,7 +10,7 @@ router.get('/:id', (req,res)=>{
     res.json({msg:'GET a single workout.'})
 })
 
-router.post('/:id', (req,res)=>{
+router.post('/', (req,res)=>{
     res.json({msg:'POST a new workout.'})
 })
 
